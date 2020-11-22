@@ -24,7 +24,7 @@ export const JsonEditor = ({ json, setJson, showGraph }) => {
           label="Json"
           multiline
           style={{ margin: 10 }}
-          rows={25}
+          rows={21}
           value={json}
           onChange={handleJsonChange}
           variant="outlined"
