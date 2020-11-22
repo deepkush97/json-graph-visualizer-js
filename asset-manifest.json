@@ -1,30 +1,27 @@
 {
   "files": {
-    "main.js": "/json-graph-visualizer-js/static/js/main.3b586591.chunk.js",
-    "main.js.map": "/json-graph-visualizer-js/static/js/main.3b586591.chunk.js.map",
-    "runtime-main.js": "/json-graph-visualizer-js/static/js/runtime-main.f16c790b.js",
-    "runtime-main.js.map": "/json-graph-visualizer-js/static/js/runtime-main.f16c790b.js.map",
-    "xlsx.js": "/json-graph-visualizer-js/static/js/xlsx.2f3ae352.chunk.js",
-    "xlsx.js.map": "/json-graph-visualizer-js/static/js/xlsx.2f3ae352.chunk.js.map",
-    "static/js/3.9eabda1e.chunk.js": "/json-graph-visualizer-js/static/js/3.9eabda1e.chunk.js",
-    "static/js/3.9eabda1e.chunk.js.map": "/json-graph-visualizer-js/static/js/3.9eabda1e.chunk.js.map",
-    "static/css/4.679831fc.chunk.css": "/json-graph-visualizer-js/static/css/4.679831fc.chunk.css",
-    "static/js/4.4e142c8e.chunk.js": "/json-graph-visualizer-js/static/js/4.4e142c8e.chunk.js",
-    "static/js/4.4e142c8e.chunk.js.map": "/json-graph-visualizer-js/static/js/4.4e142c8e.chunk.js.map",
-    "static/js/5.83534108.chunk.js": "/json-graph-visualizer-js/static/js/5.83534108.chunk.js",
-    "static/js/5.83534108.chunk.js.map": "/json-graph-visualizer-js/static/js/5.83534108.chunk.js.map",
-    "static/js/6.5de006ff.chunk.js": "/json-graph-visualizer-js/static/js/6.5de006ff.chunk.js",
-    "static/js/6.5de006ff.chunk.js.map": "/json-graph-visualizer-js/static/js/6.5de006ff.chunk.js.map",
+    "main.js": "/json-graph-visualizer-js/static/js/main.f5a9b9cd.chunk.js",
+    "main.js.map": "/json-graph-visualizer-js/static/js/main.f5a9b9cd.chunk.js.map",
+    "runtime-main.js": "/json-graph-visualizer-js/static/js/runtime-main.d7a004ff.js",
+    "runtime-main.js.map": "/json-graph-visualizer-js/static/js/runtime-main.d7a004ff.js.map",
+    "xlsx.js": "/json-graph-visualizer-js/static/js/xlsx.9a111194.chunk.js",
+    "xlsx.js.map": "/json-graph-visualizer-js/static/js/xlsx.9a111194.chunk.js.map",
+    "static/js/3.8eba3330.chunk.js": "/json-graph-visualizer-js/static/js/3.8eba3330.chunk.js",
+    "static/js/3.8eba3330.chunk.js.map": "/json-graph-visualizer-js/static/js/3.8eba3330.chunk.js.map",
+    "static/js/4.0cb228d3.chunk.js": "/json-graph-visualizer-js/static/js/4.0cb228d3.chunk.js",
+    "static/js/4.0cb228d3.chunk.js.map": "/json-graph-visualizer-js/static/js/4.0cb228d3.chunk.js.map",
+    "static/js/5.eb052f1c.chunk.js": "/json-graph-visualizer-js/static/js/5.eb052f1c.chunk.js",
+    "static/js/5.eb052f1c.chunk.js.map": "/json-graph-visualizer-js/static/js/5.eb052f1c.chunk.js.map",
+    "static/js/6.a6226142.chunk.js": "/json-graph-visualizer-js/static/js/6.a6226142.chunk.js",
+    "static/js/6.a6226142.chunk.js.map": "/json-graph-visualizer-js/static/js/6.a6226142.chunk.js.map",
     "index.html": "/json-graph-visualizer-js/index.html",
-    "static/css/4.679831fc.chunk.css.map": "/json-graph-visualizer-js/static/css/4.679831fc.chunk.css.map",
-    "static/js/4.4e142c8e.chunk.js.LICENSE.txt": "/json-graph-visualizer-js/static/js/4.4e142c8e.chunk.js.LICENSE.txt",
-    "static/js/5.83534108.chunk.js.LICENSE.txt": "/json-graph-visualizer-js/static/js/5.83534108.chunk.js.LICENSE.txt",
-    "static/js/6.5de006ff.chunk.js.LICENSE.txt": "/json-graph-visualizer-js/static/js/6.5de006ff.chunk.js.LICENSE.txt"
+    "static/js/4.0cb228d3.chunk.js.LICENSE.txt": "/json-graph-visualizer-js/static/js/4.0cb228d3.chunk.js.LICENSE.txt",
+    "static/js/5.eb052f1c.chunk.js.LICENSE.txt": "/json-graph-visualizer-js/static/js/5.eb052f1c.chunk.js.LICENSE.txt",
+    "static/js/6.a6226142.chunk.js.LICENSE.txt": "/json-graph-visualizer-js/static/js/6.a6226142.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.f16c790b.js",
-    "static/css/4.679831fc.chunk.css",
-    "static/js/4.4e142c8e.chunk.js",
-    "static/js/main.3b586591.chunk.js"
+    "static/js/runtime-main.d7a004ff.js",
+    "static/js/4.0cb228d3.chunk.js",
+    "static/js/main.f5a9b9cd.chunk.js"
   ]
 }
