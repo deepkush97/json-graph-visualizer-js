@@ -1,14 +1,17 @@
-import { Box, TextField, Button } from "@material-ui/core";
+import { Box, TextField } from "@material-ui/core";
 import { Alert } from "@material-ui/lab";
-import React, { useState } from "react";
+import { useContext, useState } from "react";
+import { AppContext } from "../../context";
 import { validateJson } from "../../helpers";
-export const JsonEditor = ({ json, setJson, showGraph }) => {
+import { Navigator } from "../Navigator";
+export const JsonEditor = ({}) => {
   const [error, setError] = useState("");
+  const { json, setJson, toggleEditor } = useContext(AppContext);
 
   const handleSubmit = (e) => {
     e.preventDefault();
     const { valid, error } = validateJson(json);
-    if (valid) showGraph();
+    if (valid) toggleEditor();
     else setError(error);
   };
 
@@ -34,14 +37,7 @@ export const JsonEditor = ({ json, setJson, showGraph }) => {
             Invalid Json | {error}
           </Alert>
         )}
-        <Button
-          variant="outlined"
-          color="primary"
-          style={{ margin: 10 }}
-          type="submit"
-        >
-          Submit
-        </Button>
+        <Navigator buttonType="submit" buttonText="Submit" />
       </Box>
     </form>
   );

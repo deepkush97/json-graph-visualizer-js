@@ -1,27 +1,42 @@
-import "normalize.css";
+import { CssBaseline, IconButton } from "@material-ui/core";
+import { createMuiTheme, ThemeProvider } from "@material-ui/core/styles";
+import BrightnessHighIcon from "@material-ui/icons/BrightnessHigh";
+import BrightnessLowIcon from "@material-ui/icons/BrightnessLow";
 import { useState } from "react";
 import { JsonEditor } from "./components/JsonEditor";
 import { JsonGraph } from "./components/JsonGraph";
-function App() {
+import { AppContext } from "./context";
+
+export const App = () => {
   const [showEditor, setShowEditor] = useState(true);
+  const [darkMode, setDarkMode] = useState(false);
   const [json, setJson] = useState("{}");
+  const palletType = darkMode ? "dark" : "light";
 
-  const showGraph = () => {
-    setShowEditor(false);
+  const darkTheme = createMuiTheme({
+    palette: {
+      type: palletType,
+    },
+  });
+  const toggleEditor = () => {
+    setShowEditor((prevState) => !prevState);
   };
-  const hideGraph = () => {
-    setShowEditor(true);
+  const handleThemeChange = () => {
+    setDarkMode((prevState) => !prevState);
   };
-
-  return (
-    <>
-      {showEditor ? (
-        <JsonEditor json={json} setJson={setJson} showGraph={showGraph} />
-      ) : (
-        <JsonGraph hideGraph={hideGraph} json={json} />
-      )}
-    </>
+  const darkToggleButton = (
+    <IconButton aria-label="delete" onClick={handleThemeChange}>
+      {darkMode ? <BrightnessHighIcon /> : <BrightnessLowIcon />}
+    </IconButton>
   );
-}
-
-export default App;
+  return (
+    <ThemeProvider theme={darkTheme}>
+      <AppContext.Provider
+        value={{ json, setJson, toggleEditor, darkToggleButton }}
+      >
+        <CssBaseline />
+        {showEditor ? <JsonEditor /> : <JsonGraph />}
+      </AppContext.Provider>
+    </ThemeProvider>
+  );
+};
